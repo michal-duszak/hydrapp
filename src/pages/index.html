@@ -16,9 +16,10 @@
       property="og:image"
       content="https://maciejkorsan.com/wtf-gulp-starter/assets/img/cover.png"
     />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
 
     <!-- uncomment the line below to enable PWA  -->
-    <!-- <link rel="manifest" href="manifest.json" /> -->
+    <link rel="manifest" href="manifest.json" />
 
     <link
       rel="apple-touch-icon"
@@ -145,9 +146,18 @@
     />
   </head>
   <body>
-    <div class="hello">
-      <img class="hello__logo" src="../assets/img/logo.svg" alt="WTF " />
-      <span class="hello__circles"></span>
-    </div>
+    <main class="main">
+      <section class="hydrapp">
+        <h1 class="hydrapp__title">hydrapp</h1>
+        <p class="hydrapp__glass">
+          <img src="../assets/img/logo.svg" alt="Half filled glass" class="hydrapp__glass-image">
+          <span class="hydrapp__glass-counter hydrapp__glass-counter--js">0</span> 
+        </p>
+        <form action="" class="hydrapp__buttons">
+          <button type="button" class="hydrapp__buttons-increase hydrapp__buttons-increase--js">dodaj szklankę</button>
+          <button type="button" class="hydrapp__buttons-decrease hydrapp__buttons-decrease--js">usuń szklankę</button>
+        </form>
+      </section>
+    </main>
   </body>
 </html>
