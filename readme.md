@@ -4,3 +4,6 @@ A simple app made to help you remember to stay hydrated all the time.
 By increasing the amount of water you drank today.
 # PWA enabled
 You can add it as your browser app!
+
+***LIVE***
+https://michal-duszak.github.io/hydrapp/
